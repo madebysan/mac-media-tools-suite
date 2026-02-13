@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000010000000000000001 /* VideoAudioSuiteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000001 /* VideoAudioSuiteApp.swift */; };
+		A10000010000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000002 /* ContentView.swift */; };
+		A10000010000000000000003 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000003 /* AppState.swift */; };
+		A10000010000000000000004 /* MediaFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000004 /* MediaFile.swift */; };
+		A10000010000000000000005 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000005 /* Operation.swift */; };
+		A10000010000000000000006 /* FFmpegService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000006 /* FFmpegService.swift */; };
+		A10000010000000000000007 /* DropZoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000007 /* DropZoneView.swift */; };
+		A10000010000000000000008 /* FileLoadedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000008 /* FileLoadedView.swift */; };
+		A10000010000000000000009 /* FFmpegMissingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000009 /* FFmpegMissingView.swift */; };
+		A10000010000000000000010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000010 /* Assets.xcassets */; };
+		A10000010000000000000011 /* OperationExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000011 /* OperationExecutor.swift */; };
+		A10000010000000000000012 /* ProcessingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000012 /* ProcessingView.swift */; };
+		A10000010000000000000013 /* CompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000013 /* CompletionView.swift */; };
+		A10000010000000000000014 /* OperationConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000014 /* OperationConfigView.swift */; };
+		A10000010000000000000015 /* BatchFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000015 /* BatchFile.swift */; };
+		A10000010000000000000016 /* FavoritesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000016 /* FavoritesStore.swift */; };
+		A10000010000000000000017 /* BatchExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000017 /* BatchExecutor.swift */; };
+		A10000010000000000000018 /* MainWorkspaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000018 /* MainWorkspaceView.swift */; };
+		A10000010000000000000019 /* FileListPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000019 /* FileListPanel.swift */; };
+		A10000010000000000000020 /* OperationPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000020 /* OperationPanel.swift */; };
+		A10000010000000000000021 /* OperationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000021 /* OperationListView.swift */; };
+		A10000010000000000000022 /* QueueBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000022 /* QueueBarView.swift */; };
+		A10000010000000000000023 /* BatchProcessingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000023 /* BatchProcessingView.swift */; };
+		A10000010000000000000024 /* BatchCompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000024 /* BatchCompletionView.swift */; };
+		T10000010000000000000001 /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = T20000010000000000000001 /* TestHelpers.swift */; };
+		T10000010000000000000002 /* OperationExecutorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = T20000010000000000000002 /* OperationExecutorTests.swift */; };
+		T10000010000000000000003 /* OperationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = T20000010000000000000003 /* OperationTests.swift */; };
+		T10000010000000000000004 /* MediaFileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = T20000010000000000000004 /* MediaFileTests.swift */; };
+		T10000010000000000000005 /* AppStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = T20000010000000000000005 /* AppStateTests.swift */; };
+		T10000010000000000000006 /* FavoritesStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = T20000010000000000000006 /* FavoritesStoreTests.swift */; };
+		U10000010000000000000001 /* VideoAudioSuiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = U20000010000000000000001 /* VideoAudioSuiteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		T30000010000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90000010000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60000010000000000000001;
+			remoteInfo = VideoAudioSuite;
+		};
+		U30000010000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90000010000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60000010000000000000001;
+			remoteInfo = VideoAudioSuite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A20000010000000000000001 /* VideoAudioSuiteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoAudioSuiteApp.swift; sourceTree = "<group>"; };
+		A20000010000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A20000010000000000000003 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		A20000010000000000000004 /* MediaFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaFile.swift; sourceTree = "<group>"; };
+		A20000010000000000000005 /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		A20000010000000000000006 /* FFmpegService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFmpegService.swift; sourceTree = "<group>"; };
+		A20000010000000000000007 /* DropZoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropZoneView.swift; sourceTree = "<group>"; };
+		A20000010000000000000008 /* FileLoadedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileLoadedView.swift; sourceTree = "<group>"; };
+		A20000010000000000000009 /* FFmpegMissingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFmpegMissingView.swift; sourceTree = "<group>"; };
+		A20000010000000000000010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20000010000000000000011 /* OperationExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationExecutor.swift; sourceTree = "<group>"; };
+		A20000010000000000000012 /* ProcessingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessingView.swift; sourceTree = "<group>"; };
+		A20000010000000000000013 /* CompletionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionView.swift; sourceTree = "<group>"; };
+		A20000010000000000000014 /* OperationConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationConfigView.swift; sourceTree = "<group>"; };
+		A20000010000000000000015 /* BatchFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchFile.swift; sourceTree = "<group>"; };
+		A20000010000000000000016 /* FavoritesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesStore.swift; sourceTree = "<group>"; };
+		A20000010000000000000017 /* BatchExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchExecutor.swift; sourceTree = "<group>"; };
+		A20000010000000000000018 /* MainWorkspaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWorkspaceView.swift; sourceTree = "<group>"; };
+		A20000010000000000000019 /* FileListPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileListPanel.swift; sourceTree = "<group>"; };
+		A20000010000000000000020 /* OperationPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationPanel.swift; sourceTree = "<group>"; };
+		A20000010000000000000021 /* OperationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationListView.swift; sourceTree = "<group>"; };
+		A20000010000000000000022 /* QueueBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueBarView.swift; sourceTree = "<group>"; };
+		A20000010000000000000023 /* BatchProcessingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchProcessingView.swift; sourceTree = "<group>"; };
+		A20000010000000000000024 /* BatchCompletionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchCompletionView.swift; sourceTree = "<group>"; };
+		A30000010000000000000001 /* VideoAudioSuite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoAudioSuite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		T20000010000000000000001 /* TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
+		T20000010000000000000002 /* OperationExecutorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationExecutorTests.swift; sourceTree = "<group>"; };
+		T20000010000000000000003 /* OperationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationTests.swift; sourceTree = "<group>"; };
+		T20000010000000000000004 /* MediaFileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaFileTests.swift; sourceTree = "<group>"; };
+		T20000010000000000000005 /* AppStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateTests.swift; sourceTree = "<group>"; };
+		T20000010000000000000006 /* FavoritesStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesStoreTests.swift; sourceTree = "<group>"; };
+		T30000010000000000000002 /* VideoAudioSuiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoAudioSuiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		U20000010000000000000001 /* VideoAudioSuiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoAudioSuiteUITests.swift; sourceTree = "<group>"; };
+		U30000010000000000000002 /* VideoAudioSuiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoAudioSuiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40000010000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		T40000010000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		U40000010000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50000010000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A50000010000000000000002 /* VideoAudioSuite */,
+				T50000010000000000000001 /* VideoAudioSuiteTests */,
+				U50000010000000000000001 /* VideoAudioSuiteUITests */,
+				A50000010000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A50000010000000000000002 /* VideoAudioSuite */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000001 /* VideoAudioSuiteApp.swift */,
+				A20000010000000000000002 /* ContentView.swift */,
+				A50000010000000000000004 /* Models */,
+				A50000010000000000000005 /* Views */,
+				A50000010000000000000006 /* Services */,
+				A20000010000000000000010 /* Assets.xcassets */,
+			);
+			path = VideoAudioSuite;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30000010000000000000001 /* VideoAudioSuite.app */,
+				T30000010000000000000002 /* VideoAudioSuiteTests.xctest */,
+				U30000010000000000000002 /* VideoAudioSuiteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000003 /* AppState.swift */,
+				A20000010000000000000015 /* BatchFile.swift */,
+				A20000010000000000000016 /* FavoritesStore.swift */,
+				A20000010000000000000004 /* MediaFile.swift */,
+				A20000010000000000000005 /* Operation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000024 /* BatchCompletionView.swift */,
+				A20000010000000000000023 /* BatchProcessingView.swift */,
+				A20000010000000000000013 /* CompletionView.swift */,
+				A20000010000000000000007 /* DropZoneView.swift */,
+				A20000010000000000000009 /* FFmpegMissingView.swift */,
+				A20000010000000000000008 /* FileLoadedView.swift */,
+				A20000010000000000000019 /* FileListPanel.swift */,
+				A20000010000000000000018 /* MainWorkspaceView.swift */,
+				A20000010000000000000014 /* OperationConfigView.swift */,
+				A20000010000000000000021 /* OperationListView.swift */,
+				A20000010000000000000020 /* OperationPanel.swift */,
+				A20000010000000000000012 /* ProcessingView.swift */,
+				A20000010000000000000022 /* QueueBarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000006 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000017 /* BatchExecutor.swift */,
+				A20000010000000000000006 /* FFmpegService.swift */,
+				A20000010000000000000011 /* OperationExecutor.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		T50000010000000000000001 /* VideoAudioSuiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				T20000010000000000000005 /* AppStateTests.swift */,
+				T20000010000000000000006 /* FavoritesStoreTests.swift */,
+				T20000010000000000000004 /* MediaFileTests.swift */,
+				T20000010000000000000002 /* OperationExecutorTests.swift */,
+				T20000010000000000000003 /* OperationTests.swift */,
+				T20000010000000000000001 /* TestHelpers.swift */,
+			);
+			path = VideoAudioSuiteTests;
+			sourceTree = "<group>";
+		};
+		U50000010000000000000001 /* VideoAudioSuiteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				U20000010000000000000001 /* VideoAudioSuiteUITests.swift */,
+			);
+			path = VideoAudioSuiteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60000010000000000000001 /* VideoAudioSuite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80000010000000000000001 /* Build configuration list for PBXNativeTarget "VideoAudioSuite" */;
+			buildPhases = (
+				A70000010000000000000001 /* Sources */,
+				A40000010000000000000001 /* Frameworks */,
+				A70000010000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoAudioSuite;
+			productName = VideoAudioSuite;
+			productReference = A30000010000000000000001 /* VideoAudioSuite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		T60000010000000000000001 /* VideoAudioSuiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = T80000010000000000000001 /* Build configuration list for PBXNativeTarget "VideoAudioSuiteTests" */;
+			buildPhases = (
+				T70000010000000000000001 /* Sources */,
+				T40000010000000000000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				T60000010000000000000002 /* PBXTargetDependency */,
+			);
+			name = VideoAudioSuiteTests;
+			productName = VideoAudioSuiteTests;
+			productReference = T30000010000000000000002 /* VideoAudioSuiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		U60000010000000000000001 /* VideoAudioSuiteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = U80000010000000000000001 /* Build configuration list for PBXNativeTarget "VideoAudioSuiteUITests" */;
+			buildPhases = (
+				U70000010000000000000001 /* Sources */,
+				U40000010000000000000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				U60000010000000000000002 /* PBXTargetDependency */,
+			);
+			name = VideoAudioSuiteUITests;
+			productName = VideoAudioSuiteUITests;
+			productReference = U30000010000000000000002 /* VideoAudioSuiteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90000010000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					A60000010000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					T60000010000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A60000010000000000000001;
+					};
+					U60000010000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A60000010000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = A80000010000000000000002 /* Build configuration list for PBXProject "VideoAudioSuite" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A50000010000000000000001;
+			productRefGroup = A50000010000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60000010000000000000001 /* VideoAudioSuite */,
+				T60000010000000000000001 /* VideoAudioSuiteTests */,
+				U60000010000000000000001 /* VideoAudioSuiteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A70000010000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000010000000000000010 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70000010000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000010000000000000001 /* VideoAudioSuiteApp.swift in Sources */,
+				A10000010000000000000002 /* ContentView.swift in Sources */,
+				A10000010000000000000003 /* AppState.swift in Sources */,
+				A10000010000000000000004 /* MediaFile.swift in Sources */,
+				A10000010000000000000005 /* Operation.swift in Sources */,
+				A10000010000000000000006 /* FFmpegService.swift in Sources */,
+				A10000010000000000000007 /* DropZoneView.swift in Sources */,
+				A10000010000000000000008 /* FileLoadedView.swift in Sources */,
+				A10000010000000000000009 /* FFmpegMissingView.swift in Sources */,
+				A10000010000000000000011 /* OperationExecutor.swift in Sources */,
+				A10000010000000000000012 /* ProcessingView.swift in Sources */,
+				A10000010000000000000013 /* CompletionView.swift in Sources */,
+				A10000010000000000000014 /* OperationConfigView.swift in Sources */,
+				A10000010000000000000015 /* BatchFile.swift in Sources */,
+				A10000010000000000000016 /* FavoritesStore.swift in Sources */,
+				A10000010000000000000017 /* BatchExecutor.swift in Sources */,
+				A10000010000000000000018 /* MainWorkspaceView.swift in Sources */,
+				A10000010000000000000019 /* FileListPanel.swift in Sources */,
+				A10000010000000000000020 /* OperationPanel.swift in Sources */,
+				A10000010000000000000021 /* OperationListView.swift in Sources */,
+				A10000010000000000000022 /* QueueBarView.swift in Sources */,
+				A10000010000000000000023 /* BatchProcessingView.swift in Sources */,
+				A10000010000000000000024 /* BatchCompletionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		T70000010000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				T10000010000000000000001 /* TestHelpers.swift in Sources */,
+				T10000010000000000000002 /* OperationExecutorTests.swift in Sources */,
+				T10000010000000000000003 /* OperationTests.swift in Sources */,
+				T10000010000000000000004 /* MediaFileTests.swift in Sources */,
+				T10000010000000000000005 /* AppStateTests.swift in Sources */,
+				T10000010000000000000006 /* FavoritesStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		U70000010000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				U10000010000000000000001 /* VideoAudioSuiteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		T60000010000000000000002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60000010000000000000001 /* VideoAudioSuite */;
+			targetProxy = T30000010000000000000001 /* PBXContainerItemProxy */;
+		};
+		U60000010000000000000002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60000010000000000000001 /* VideoAudioSuite */;
+			targetProxy = U30000010000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B10000010000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B10000010000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B10000010000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VideoAudioSuite/VideoAudioSuite.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Media Tools Suite";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mediatoolssuite.app;
+				PRODUCT_NAME = "Media Tools Suite";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B10000010000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VideoAudioSuite/VideoAudioSuite.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Media Tools Suite";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mediatoolssuite.app;
+				PRODUCT_NAME = "Media Tools Suite";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		TB0000010000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mediatoolssuite.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Media Tools Suite.app/Contents/MacOS/Media Tools Suite";
+			};
+			name = Debug;
+		};
+		TB0000010000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mediatoolssuite.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Media Tools Suite.app/Contents/MacOS/Media Tools Suite";
+			};
+			name = Release;
+		};
+		UB0000010000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mediatoolssuite.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = VideoAudioSuite;
+			};
+			name = Debug;
+		};
+		UB0000010000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mediatoolssuite.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = VideoAudioSuite;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80000010000000000000001 /* Build configuration list for PBXNativeTarget "VideoAudioSuite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10000010000000000000003 /* Debug */,
+				B10000010000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80000010000000000000002 /* Build configuration list for PBXProject "VideoAudioSuite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10000010000000000000001 /* Debug */,
+				B10000010000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		T80000010000000000000001 /* Build configuration list for PBXNativeTarget "VideoAudioSuiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				TB0000010000000000000001 /* Debug */,
+				TB0000010000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		U80000010000000000000001 /* Build configuration list for PBXNativeTarget "VideoAudioSuiteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				UB0000010000000000000001 /* Debug */,
+				UB0000010000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A90000010000000000000001 /* Project object */;
+}
