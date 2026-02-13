@@ -4,8 +4,7 @@ A native macOS app for common video and audio processing tasks. Drag, drop, and 
 
 No timelines, no complex UI — just quick conversions and edits powered by ffmpeg.
 
-<!-- TODO: Add screenshot of the three-panel interface here -->
-<!-- ![Media Tools Suite](screenshot.png) -->
+![Media Tools Suite — three-panel interface showing files, operations, and options](screenshot.png)
 
 ## Features
 
