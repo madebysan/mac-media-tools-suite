@@ -1,10 +1,18 @@
-# Media Tools Suite
+<p align="center">
+  <img src="assets/app-icon.png" width="128" height="128" alt="Media Tools Suite app icon">
+</p>
 
-A native macOS app for common video and audio processing tasks. Drag, drop, and go — with batch processing for multiple files at once.
+<h1 align="center">Media Tools Suite</h1>
 
-No timelines, no complex UI — just quick conversions and edits powered by ffmpeg.
+<p align="center">A native macOS app for common video and audio processing tasks.<br>
+Drag, drop, and go — with batch processing for multiple files at once.<br>
+No timelines, no complex UI — just quick conversions and edits powered by ffmpeg.</p>
 
-![Media Tools Suite — three-panel interface showing files, operations, and options](screenshot.png)
+<p align="center">macOS 13+ · Apple Silicon & Intel</p>
+
+<p align="center">
+  <img src="screenshot.png" width="600" alt="Media Tools Suite — three-panel interface">
+</p>
 
 ## Features
 
