@@ -9,6 +9,7 @@ Drag, drop, and go — with batch processing for multiple files at once.<br>
 No timelines, no complex UI — just quick conversions and edits powered by ffmpeg.</p>
 
 <p align="center">macOS 13+ · Apple Silicon & Intel</p>
+<p align="center"><a href="https://github.com/madebysan/media-tools-suite/releases/latest"><strong>Download Media Tools Suite</strong></a></p>
 
 <p align="center">
   <img src="screenshot.png" width="600" alt="Media Tools Suite — three-panel interface">
