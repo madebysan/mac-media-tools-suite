@@ -5,14 +5,14 @@
 <h1 align="center">Media Tools Suite</h1>
 
 <p align="center">A native macOS app for common video and audio processing tasks.<br>
-Drag, drop, and go — with batch processing for multiple files at once.<br>
-No timelines, no complex UI — just quick conversions and edits powered by ffmpeg.</p>
+Drag, drop, and go – with batch processing for multiple files at once.<br>
+No timelines, no complex UI – just quick conversions and edits powered by ffmpeg.</p>
 
 <p align="center">macOS 13+ · Apple Silicon & Intel</p>
 <p align="center"><a href="https://github.com/madebysan/media-tools-suite/releases/latest"><strong>Download Media Tools Suite</strong></a></p>
 
 <p align="center">
-  <img src="screenshot.png" width="600" alt="Media Tools Suite — three-panel interface">
+  <img src="screenshot.png" width="600" alt="Media Tools Suite – three-panel interface">
 </p>
 
 ## Features
@@ -31,11 +31,11 @@ No timelines, no complex UI — just quick conversions and edits powered by ffmp
 - Enhance audio (denoise, EQ, normalize)
 
 ### Format
-- Change container (MP4, MOV, MKV) — fast, no re-encoding
+- Change container (MP4, MOV, MKV) – fast, no re-encoding
 - Compress video (quality presets)
 - Convert to ProRes
 - Resize video (4K, 1080p, 720p, 480p, 360p, or custom)
-- Create proxy — low-res copies for smoother editing
+- Create proxy – low-res copies for smoother editing
 
 ### Edit
 - Trim (start to end time)
@@ -66,9 +66,9 @@ No timelines, no complex UI — just quick conversions and edits powered by ffmp
 
 Three-panel interface:
 
-1. **Files** (left) — Drop files or folders, toggle selection with checkboxes
-2. **Operations** (middle) — Browse or search operations, star your favorites
-3. **Options** (right) — Configure the selected operation
+1. **Files** (left) – Drop files or folders, toggle selection with checkboxes
+2. **Operations** (middle) – Browse or search operations, star your favorites
+3. **Options** (right) – Configure the selected operation
 
 Click **Process** to run the operation on all selected files. Each operation translates to optimized ffmpeg commands that use stream copying when possible (fast, no quality loss).
 
@@ -87,7 +87,7 @@ Click **Process** to run the operation on all selected files. Each operation tra
 
 Download the latest DMG from the [Releases](https://github.com/madebysan/media-tools-suite/releases) page, open it, and drag **Media Tools Suite** to your Applications folder.
 
-The app is signed and notarized with Apple Developer ID — no Gatekeeper warnings, installs and opens like any trusted Mac app.
+The app is signed and notarized with Apple Developer ID – no Gatekeeper warnings, installs and opens like any trusted Mac app.
 
 ## Building from Source
 
@@ -174,10 +174,10 @@ VideoAudioSuite/
 
 ## How to Add a New Operation
 
-1. **`Operation.swift`** — Add a case to the `Operation` enum, update `name`, `description`, `outputSuffix`, `requiresSecondFile`, `requiresConfiguration`
-2. **`OperationCategory`** — Add to the appropriate category's `operations(for:)` method
-3. **`OperationExecutor.swift`** — Add config properties to `OperationConfig` if needed, add a case to `buildArguments`
-4. **`OperationConfigView.swift`** — Add a case to the switch, create a config UI component
+1. **`Operation.swift`** – Add a case to the `Operation` enum, update `name`, `description`, `outputSuffix`, `requiresSecondFile`, `requiresConfiguration`
+2. **`OperationCategory`** – Add to the appropriate category's `operations(for:)` method
+3. **`OperationExecutor.swift`** – Add config properties to `OperationConfig` if needed, add a case to `buildArguments`
+4. **`OperationConfigView.swift`** – Add a case to the switch, create a config UI component
 
 See `CLAUDE.md` for more detail on architecture, ffmpeg patterns, and testing.
 
@@ -192,7 +192,7 @@ Contributions are welcome! Here's how:
 5. Commit and push to your fork
 6. Open a pull request
 
-Please keep changes focused — one feature or fix per PR.
+Please keep changes focused – one feature or fix per PR.
 
 ## Feedback
 
